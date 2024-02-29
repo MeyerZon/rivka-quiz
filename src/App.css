@@ -1,0 +1,16 @@
+.flexCenter{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.withAnotherColor{
+    color: #ff9700;
+}
+
+.bold-decorated{
+    font-weight: bold;
+    text-decoration-line: underline;
+}

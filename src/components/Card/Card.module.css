@@ -1,0 +1,60 @@
+/* Card Component Style */
+.card {
+    /*background-color: #fff; !* Card background color *!*/
+    border: 1px solid #ddd; /* Card border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Card shadow for depth */
+    margin: 15px; /* Margin around the card */
+    padding: 20px; /* Padding inside the card */
+    text-align: right; /* Align text to the right for RTL */
+    max-width: fit-content; /* Maximum width of the card */
+    display: flex; /* Allows multiple cards in a row */
+    flex-direction: column;
+    direction: ltr;
+
+}
+
+/* Card Image */
+.card img {
+    width: 100%; /* Full width of the card */
+    height: auto; /* Keep image aspect ratio */
+    margin-bottom: 15px; /* Space below the image */
+}
+
+/* Card Title */
+.card h3 {
+    margin-bottom: 10px; /* Space below the title */
+    /*color: #333; !* Title text color *!*/
+}
+
+/* Card Text */
+.card p {
+    margin-bottom: 15px; /* Space below the paragraph */
+    /*color: #666; !* Paragraph text color *!*/
+}
+
+/* Card Button */
+/*.card button {*/
+/*    background-color: #007bff; !* Button background color *!*/
+/*    color: white; !* Button text color *!*/
+/*    border: none; !* No border for the button *!*/
+/*    padding: 10px 20px; !* Button padding *!*/
+/*    text-align: center; !* Center text in the button *!*/
+/*    text-decoration: none; !* No underline on the text *!*/
+/*    display: inline-block; !* Align button correctly *!*/
+/*    font-size: 16px; !* Button text size *!*/
+/*    cursor: pointer; !* Pointer cursor on hover *!*/
+/*    border-radius: 5px; !* Rounded corners for the button *!*/
+/*}*/
+
+.card button:hover {
+    background-color: #7f7f9a; /* Darker background on hover */
+}
+.card input{
+
+    width: 8rem;
+
+}
+
+
+
+

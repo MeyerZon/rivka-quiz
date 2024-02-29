@@ -1,0 +1,13 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Card shadow for depth */
+    direction: ltr;
+    justify-content: space-evenly;
+}
+.red{
+    background-color: palevioletred;
+}
+.green{
+    background-color: lightgreen;
+}

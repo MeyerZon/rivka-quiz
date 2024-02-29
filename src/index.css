@@ -1,0 +1,131 @@
+/* Basic Reset */
+#root{
+  display: flex;
+justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  width: 80vw;
+
+
+}
+:root{
+  background: #666666;
+  color: antiquewhite;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Text Direction */
+body {
+  direction: rtl;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+justify-content: center;
+}
+
+/* Headings */
+h1, h2, h3 {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* Container for Flexbox */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse; /* Adjust for RTL */
+  justify-content: center;
+}
+
+/* Responsive Typography */
+p {
+  text-align: center;
+}
+
+/* Responsive Image and Video */
+img, video {
+  max-width: 100%;
+  height: auto;
+
+}
+
+/* Responsive Buttons and Form Elements */
+button, input {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background: #afa8a8;
+  color: #030303;
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 8px;
+  text-align: center;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  h1 {
+    font-size: 1.2em;
+  }
+
+  .navbar {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .container {
+    flex-direction: row-reverse;
+  }
+
+  h1 {
+    font-size: 1.4em;
+  }
+}
+
+/* Adjusting Margins and Padding for RTL */
+.example-class {
+  margin-right: 10px;
+  padding-right: 15px;
+}
+
+/* List Styles for RTL */
+ul, ol {
+  padding-right: 20px;
+}
